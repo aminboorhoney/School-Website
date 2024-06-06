@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <img src="./images/close.png" alt="" class="icon close" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img src="./images/menu.png" alt="" class="icon menu" onclick="showMenu()">
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+    <!---Course-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>This is the best university in the world. Join us and have the experience</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!----facilities-->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>This is the best university in the world. Join us and have the experience</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Dicta molestias velit, eveniet dolorum autem blanditiis iste p
+                    rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+                    sequi cum accusamus quidem!</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Dicta molestias velit, eveniet dolorum autem blanditiis iste p  <br>
+            rovident et quasi eius alias ullam deserunt minus labore! Voluptas 
+            sequi cum accusamus quidem!
+        </p>
+        <div class="icons">
+
+        </div>
+    </section>
+
+
+
+    <!----javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
